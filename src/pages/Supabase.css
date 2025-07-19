@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 375px) {
+    .service {
+        margin: 0px 5px;
+        font-family: 'New Gerbil';
+    }
+
+    .linea {
+        border-top: 2px solid black;
+
+    }
+
+    .titulo {
+        font-family: 'New Gerbil';
+        color: black
+    }
+
+    .react-datepicker__navigation--previous {
+        left: 183px;
+        
+    }
+
+    body {
+        background: #cf795f;
+        background: linear-gradient(152deg, rgba(207, 121, 95, 1) 13%, rgba(238, 234, 234, 1) 46%);
+        height: auto;
+
+    }
+
+    .manicura {
+        display: flex;
+        margin: 23px 4px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .pedicura {
+        display: flex;
+        margin: 23px 4px;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .depilacion {
+        display: flex;
+        margin: 23px 4px;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    button {
+        width: 118px;
+        height: 42px;
+        background: none;
+        border: 1.5px solid black;
+        color: black;
+    }
+
+    .activo {
+        background-color: #FD7041;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    h4 {
+        color: black;
+    }
+
+    p {
+        color: black;
+    }
+
+    .button_hora {
+        display: grid;
+        flex-direction: row;
+        width: 78px;
+    }
+
+    .button-key {
+        width: 70px;
+    }
+
+    .hour {
+        display: block;   
+    }
+    .day{
+        height: 812px;
+    }
+   
+    
+
+.react-datepicker {
+    font-family: 'New Gerbil';
+    font-size: 0.8rem;
+    background-color: none;
+    color: #000;
+    border: none;
+    border-radius: 0.3rem;
+    display: inline-block;
+    position: relative;
+    line-height: initial;
+}
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+    border-radius: 0.3rem;
+    background-color: rgb(241, 215, 186);
+    color: rgb(0, 0, 0);
+}
+.react-datepicker__day--selected:not([aria-disabled=true]):hover, .react-datepicker__day--in-selecting-range:not([aria-disabled=true]):hover, .react-datepicker__day--in-range:not([aria-disabled=true]):hover, .react-datepicker__month-text--selected:not([aria-disabled=true]):hover, .react-datepicker__month-text--in-selecting-range:not([aria-disabled=true]):hover, .react-datepicker__month-text--in-range:not([aria-disabled=true]):hover, .react-datepicker__quarter-text--selected:not([aria-disabled=true]):hover, .react-datepicker__quarter-text--in-selecting-range:not([aria-disabled=true]):hover, .react-datepicker__quarter-text--in-range:not([aria-disabled=true]):hover, .react-datepicker__year-text--selected:not([aria-disabled=true]):hover, .react-datepicker__year-text--in-selecting-range:not([aria-disabled=true]):hover, .react-datepicker__year-text--in-range:not([aria-disabled=true]):hover
+
+ {
+    background-color: #FD7041;
+}
+.guardado{
+    background-color: #000;
+    color: #ffff;
+    
+}
+}
