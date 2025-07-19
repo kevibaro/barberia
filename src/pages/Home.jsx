@@ -42,7 +42,7 @@ function Home() {
     else {
         return (
 
-            <div>
+            <div className='google'>
                 <Supabase userName={userName} />
                 <h2 className='welcome'>Welcome,{session?.user?.email}</h2>
                 <button onClick={signOut}>Cerrar</button>
